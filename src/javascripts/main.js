@@ -10,8 +10,7 @@ console.error('hi');
 
 
 const init = () => {
-  console.error('keys', firebase.apiKeys);
-  firebase.initializeApp(apiKeys.firebaseConfig);
+  firebase.initializeApp(apiKeys.firebaseKeys);
   auth.authStringBuilder();
   birfday.birfdayStringBuilder();
 };
