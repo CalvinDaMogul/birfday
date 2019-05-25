@@ -1,6 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
-import util from '../../javascripts/data/util';
+import util from '../../javascripts/helpers/data/util';
 import googleImage from './loginbutton-2.png';
 
 
